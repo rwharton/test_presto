@@ -14,7 +14,7 @@ extra_compile_args = ["-fPIC"]
 include_dirs = []
 
 ppgplot_libraries = ["cpgplot", "pgplot", "X11", "png", "m", "g2c", "gfortran"]
-ppgplot_library_dirs = ["/home/pearlman/software/pgplot_build"]
+ppgplot_library_dirs = ["/usr/lib/pgplot5"]
 
 # Use NumPy instead of Numeric or numarray
 make_extension = Extension

@@ -11,15 +11,15 @@ import numpy
 define_macros = []
 undef_macros = []
 extra_compile_args = ["-DUSEFFTW -fPIC"]
-include_dirs = ["/home/pearlman/software/include"]
+include_dirs = ["/home/psr/pulsar_software/include"]
 
 # Note:  you might need to add "gfortran" to the following list if 
 # you see errors relating to missing "g" functions....
 ppgplot_libraries = ["cpgplot", "pgplot", "X11", "png", "m", "gfortran"]
-ppgplot_library_dirs = ["/home/pearlman/software/pgplot_build"]
+ppgplot_library_dirs = ["/usr/lib/pgplot5"]
 
 presto_libraries = ["presto", "fftw3f", "m"]
-presto_library_dirs = ["/home/pearlman/software/lib","/home/pearlman/software/presto/lib"]
+presto_library_dirs = ["/home/psr/pulsar_software/lib","/home/psr/pulsar_software/presto/lib"]
 
 # Use NumPy instead of Numeric or numarray
 make_extension = Extension
