@@ -16,7 +16,7 @@ include_dirs = ["/home/psr/pulsar_software/include"]
 # Note:  you might need to add "gfortran" to the following list if 
 # you see errors relating to missing "g" functions....
 ppgplot_libraries = ["cpgplot", "pgplot", "X11", "png", "m", "gfortran"]
-ppgplot_library_dirs = ["/usr/lib/pgplot5"]
+ppgplot_library_dirs = ["/home/psr/pulsar_software/pgplot_build"]
 
 presto_libraries = ["presto", "fftw3f", "m"]
 presto_library_dirs = ["/home/psr/pulsar_software/lib","/home/psr/pulsar_software/presto/lib"]
